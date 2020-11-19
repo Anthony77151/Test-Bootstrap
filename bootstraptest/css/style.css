@@ -61,3 +61,24 @@ body {
     clear: none;
     max-height: none;
 }
+
+
+/* Footer */
+
+.multimédia {
+    height: 50px;
+    width: 40px;
+    padding-top: 10px;
+}
+
+footer {
+    background: rgb(5, 5, 5);
+    border-bottom: 1px solid #008eb6;
+    border-top: 1px solid #008eb6;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    height: 60px;
+    display: flex;
+}
