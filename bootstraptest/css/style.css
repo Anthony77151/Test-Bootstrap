@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Ma fonte";
+    src: url('../font/AlexBrush-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Font global";
+    src: url('../font/Alice-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://zupimages.net/up/20/44/kn5q.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Font global";
+}
+
+.titreace {
+    font-family: "Ma fonte";
+    font-size: 32px;
+}
+
+.navbar {
+    background-color: rgb(22, 22, 22);
+    border-top: 2px solid ghostwhite;
+    border-bottom: 2px solid ghostwhite;
+}
+
+.navbar a {
+    color: ghostwhite;
+}
+
+.navbar-nav a {
+    font-size: 20px;
+}
+
+.header .menuace:hover {
+    background-color: #008eb6;
+}
+
+.header {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.header a {
+    display: block;
+}
