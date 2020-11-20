@@ -21,12 +21,22 @@ body {
     font-family: "Font global";
 }
 
+p {
+    color: ghostwhite;
+}
+
+h2 {
+    color: ghostwhite;
+    background-color: #008eb6;
+}
+
 .header {
     background-color: rgb(22, 22, 22);
     border-top: 2px solid ghostwhite;
     border-bottom: 2px solid ghostwhite;
     position: fixed;
     width: 100%;
+    z-index: 3;
 }
 
 .header ul {
@@ -41,20 +51,9 @@ body {
     text-decoration: none;
 }
 
-.header li a:hover,
-.header .menu-btn:hover {
-    background-color: #008eb6;
-}
-
 .navbar-brand {
     font-family: "Ma fonte";
     font-size: 2em;
-}
-
-@media (min-width: 992px) {
-    .header li a {
-        border-left: 1px solid ghostwhite;
-    }
 }
 
 .header .menu {
@@ -62,23 +61,51 @@ body {
     max-height: none;
 }
 
-
-/* Footer */
-
-.multimédia {
-    height: 50px;
-    width: 40px;
-    padding-top: 10px;
+.séparation {
+    width: 375px;
 }
 
-footer {
-    background: rgb(5, 5, 5);
-    border-bottom: 1px solid #008eb6;
-    border-top: 1px solid #008eb6;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    justify-content: center;
-    height: 60px;
+.Séparation {
     display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
 }
+
+
+/* Sécurité & Contrôle */
+
+
+/* Featurettes
+------------------------- */
+
+.texteportail {
+    background-color: rgb(22, 22, 22, 0.7);
+    box-shadow: 0px 5px 10px 5px rgb(22, 22, 22, 0.7);
+}
+
+.featurette-divider {
+    margin: 1.5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+@media (min-width: 992px) {
+    .header li a {
+        border-left: 1px solid ghostwhite;
+    }
+    .header li a:hover {
+        background-color: #008eb6;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 1200px) {}
