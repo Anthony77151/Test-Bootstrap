@@ -38,35 +38,34 @@
             </div>
         </nav>
     </header>
-    <div class="Formulaire">
+    <div class="Formulaire col-md-6">
         <h3>Nous contacter par e-mail :</h3>
         <form action="#">
             <p class="obligado"><i>Complétez le formulaire. Les champs marqués par </i><em>*</em> sont <em>obligatoires</em></p>
-            <fieldset>
-                <legend>Contact</legend>
-                <label class="labelformulaire" for="nom">Nom <em>*</em></label>
 
-                <input id="nom" placeholder="Olivier Serre" autofocus="" required=""><br>
-                <label class="labelformulaire" for="telephone">Portable <em>*</em></label>
+            <legend>Contact</legend>
+            <label class="labelformulaire" for="nom">Nom <em>*</em></label>
 
-                <input id="telephone" type="tel" placeholder="06xxxxxxxx" required="" pattern="06[0-9]{8}"><br>
-                <label class="labelformulaire" for="email">Email <em>*</em></label>
-                <input id="email" type="email" placeholder="prenom.nom@polytechnique.edu" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@polytechnique.edu"><br>
-            </fieldset>
-            <fieldset>
-                <legend>Votre demande</legend>
-                <label class="labelformulaire" for="Dépannage"><input id="Dépannage" type="checkbox" name="demande" value="Dépannage"> Dépannage</label>
-                <label class="labelformulaire" for="Vidéosurveillance"><input id="Vidéosurveillance" type="checkbox" name="demande" value="Vidéosurveillance"> Vidéosurveillance</label>
-                <label class="labelformulaire" for="Interphonie"><input id="Interphonie" type="checkbox" name="demande" value="Interphonie"> Interphonie</label>
-                <label class="labelformulaire" for="Alarme"><input id="Alarme" type="checkbox" name="demande" value="Alarme"> Alarme</label>
-                <label class="labelformulaire" for="Automatisation"><input id="Automatisation" type="checkbox" name="demande" value="Automatisation"> Automatisation</label>
-                <label class="labelformulaire" for="Devis"><input id="Devis" type="checkbox" name="demande" value="Devis"> Devis</label>
-                <br>
-                <br>
+            <input id="nom" placeholder="Olivier Serre" autofocus="" required=""><br>
+            <label class="labelformulaire" for="telephone">Portable <em>*</em></label>
 
-                <label class="labelformulaire" for="comments">Informations complémentaires</label>
-                <textarea id="comments"></textarea>
-            </fieldset>
+            <input id="telephone" type="tel" placeholder="06xxxxxxxx" required="" pattern="06[0-9]{8}"><br>
+            <label class="labelformulaire" for="email">Email <em>*</em></label>
+            <input id="email" type="email" placeholder="prenom.nom@polytechnique.edu" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@polytechnique.edu"><br>
+            <br>
+            <legend>Votre demande</legend>
+            <label class="labelformulaire" for="Dépannage"><input id="Dépannage" type="checkbox" name="demande" value="Dépannage"> Dépannage</label>
+            <label class="labelformulaire" for="Vidéosurveillance"><input id="Vidéosurveillance" type="checkbox" name="demande" value="Vidéosurveillance"> Vidéosurveillance</label>
+            <label class="labelformulaire" for="Interphonie"><input id="Interphonie" type="checkbox" name="demande" value="Interphonie"> Interphonie</label>
+            <label class="labelformulaire" for="Alarme"><input id="Alarme" type="checkbox" name="demande" value="Alarme"> Alarme</label>
+            <label class="labelformulaire" for="Automatisation"><input id="Automatisation" type="checkbox" name="demande" value="Automatisation"> Automatisation</label>
+            <label class="labelformulaire" for="Devis"><input id="Devis" type="checkbox" name="demande" value="Devis"> Devis</label>
+            <br>
+            <br>
+
+            <label class="labelformulaire" for="comments">Informations complémentaires</label>
+            <textarea id="comments"></textarea>
+
 
             <p><input type="submit" value="Envoyer"></p>
         </form>
