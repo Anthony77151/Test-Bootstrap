@@ -25,6 +25,10 @@ p {
     color: ghostwhite;
 }
 
+h1 {
+    color: ghostwhite;
+}
+
 h2 {
     color: ghostwhite;
     background-color: #008eb6;
@@ -47,19 +51,23 @@ h2 {
 
 .header li a {
     display: block;
-    padding: 20px 30px;
+    padding: 30px 30px;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .navbar-brand {
     font-family: "Ma fonte";
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .header .menu {
     clear: none;
     max-height: none;
 }
+
+
+/*Séparation*/
 
 .séparation {
     width: 375px;
@@ -184,3 +192,20 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {}
 
 @media (min-width: 1200px) {}
+
+
+/*ScrollTrigger*/
+
+.from-right,
+.from-left {
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.from-right {
+    transform: translate(50px, -30px);
+}
+
+.from-left {
+    transform: translate(-50px, -30px);
+}
