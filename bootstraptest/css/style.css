@@ -51,14 +51,13 @@ h2 {
 
 .header li a {
     display: block;
-    padding: 30px 30px;
+    padding: 35px 35px;
     text-decoration: none;
-    font-size: 20px;
 }
 
 .navbar-brand {
     font-family: "Ma fonte";
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 .header .menu {
@@ -76,7 +75,7 @@ h2 {
 .Séparation {
     display: flex;
     justify-content: center;
-    margin: 20px 0 20px 0;
+    margin: 50px 0 50px 0;
 }
 
 
@@ -203,9 +202,9 @@ h3 {
 }
 
 .from-right {
-    transform: translate(50px, -30px);
+    transform: translate(0px, 0px);
 }
 
 .from-left {
-    transform: translate(-50px, -30px);
+    transform: translate(0px, 0px);
 }
