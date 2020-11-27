@@ -111,6 +111,10 @@ h2 {
 /* Formulaire */
 
 .labelformulaire {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
     color: ghostwhite;
 }
 
