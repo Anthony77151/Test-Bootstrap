@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socièté A.C.E.</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark pr-0 pb-0 pt-0">
+            <a class="navbar-brand mr-0" href="index.html">A.C.E.</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+                <ul class="navbar-nav menu">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="securite.html">Sécurité & Contrôle</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="automatisme.html">Automatisme</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="entretien.html">Contrats d'entretiens</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="depannage.html">Dépannage</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br><br>
+    <div class="Formulaire col-4">
+        <h3>Nous contacter par e-mail :</h3>
+        <form action="#">
+            <p class="obligado"><i>Complétez le formulaire. Les champs marqués par </i><em>*</em> sont <em>obligatoires</em></p>
+
+            <legend>Contact</legend>
+            <label class="labelformulaire" type="nom" for="nom">Nom <em>*</em></label>
+
+            <input id="nom" placeholder="Olivier Serre" autofocus="" required=""><br>
+            <label class="labelformulaire" for="telephone">Portable <em>*</em></label>
+
+            <input id="telephone" type="tel" placeholder="06xxxxxxxx" required="" pattern="0[1-9][0-9]{8}"><br>
+            <label class="labelformulaire" for="email">Email <em>*</em></label>
+            <input id="email" type="email" placeholder="prenom.nom@gmail.com" required=""><br>
+            <br>
+            <legend>Votre demande</legend>
+            <label class="labelformulaire" for="Dépannage"><input id="Dépannage" type="checkbox" name="demande" value="Dépannage"> Dépannage</label>
+            <label class="labelformulaire" for="Vidéosurveillance"><input id="Vidéosurveillance" type="checkbox" name="demande" value="Vidéosurveillance"> Vidéosurveillance</label>
+            <label class="labelformulaire" for="Interphonie"><input id="Interphonie" type="checkbox" name="demande" value="Interphonie"> Interphonie</label>
+            <label class="labelformulaire" for="Alarme"><input id="Alarme" type="checkbox" name="demande" value="Alarme"> Alarme</label>
+            <label class="labelformulaire" for="Automatisation"><input id="Automatisation" type="checkbox" name="demande" value="Automatisation"> Automatisation</label>
+            <label class="labelformulaire" for="Devis"><input id="Devis" type="checkbox" name="demande" value="Devis"> Devis</label>
+            <br>
+            <br>
+
+            <label class="labelformulaire" for="comments">Informations complémentaires</label>
+            <textarea id="comments"></textarea>
+
+
+            <p><input type="submit" value="Envoyer"></p>
+        </form>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

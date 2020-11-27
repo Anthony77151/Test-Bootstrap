@@ -39,38 +39,56 @@
         </nav>
     </header>
     <br><br>
-    <div class="Formulaire col-md-4">
-        <h3>Nous contacter par e-mail :</h3>
-        <form action="#">
-            <p class="obligado"><i>Complétez le formulaire. Les champs marqués par </i><em>*</em> sont <em>obligatoires</em></p>
+    <div class="containerctc">
+        <div class="contact">
+            <div class="Formulaire">
+                <form class="col">
+                    <h3 class="pl-3">Nous contacter par e-mail :</h3>
+                    <p class="obligado pl-3"><i>Complétez le formulaire. Les champs marqués par </i><em>*</em> sont <em>obligatoires</em></p>
+                    <div class="form-group">
 
-            <legend>Contact</legend>
-            <label class="labelformulaire" for="nom">Nom <em>*</em></label>
+                        <div class="col">
+                            <label class="labelformulaire" type="nom" for="nom">Nom <em>*</em></label>
+                            <input type="text" class="form-control" placeholder="Nom" required="">
+                        </div>
 
-            <input id="nom" placeholder="Olivier Serre" autofocus="" required=""><br>
-            <label class="labelformulaire" for="telephone">Portable <em>*</em></label>
+                        <div class="col">
+                            <label class="labelformulaire" type="nom" for="nom">Prénom <em>*</em></label>
+                            <input type="text" class="form-control" placeholder="Prénom" required="">
+                        </div>
 
-            <input id="telephone" type="tel" placeholder="06xxxxxxxx" required="" pattern="0[1-9][0-9]{8}"><br>
-            <label class="labelformulaire" for="email">Email <em>*</em></label>
-            <input id="email" type="email" placeholder="prenom.nom@gmail.com" required=""><br>
-            <br>
-            <legend>Votre demande</legend>
-            <label class="labelformulaire" for="Dépannage"><input id="Dépannage" type="checkbox" name="demande" value="Dépannage"> Dépannage</label>
-            <label class="labelformulaire" for="Vidéosurveillance"><input id="Vidéosurveillance" type="checkbox" name="demande" value="Vidéosurveillance"> Vidéosurveillance</label>
-            <label class="labelformulaire" for="Interphonie"><input id="Interphonie" type="checkbox" name="demande" value="Interphonie"> Interphonie</label>
-            <label class="labelformulaire" for="Alarme"><input id="Alarme" type="checkbox" name="demande" value="Alarme"> Alarme</label>
-            <label class="labelformulaire" for="Automatisation"><input id="Automatisation" type="checkbox" name="demande" value="Automatisation"> Automatisation</label>
-            <label class="labelformulaire" for="Devis"><input id="Devis" type="checkbox" name="demande" value="Devis"> Devis</label>
-            <br>
-            <br>
+                        <div class="col">
+                            <label class="labelformulaire" for="telephone">Portable <em>*</em></label>
+                            <input type="tel" class="form-control" placeholder="06xxxxxxxx" pattern="0[1-9][0-9]{8}" required="">
+                        </div>
+                        <div class="col">
+                            <label class="labelformulaire" for="email">Email <em>*</em></label>
+                            <input type="email" class="form-control" id="email" placeholder="Nom.prenom@exemple.com" required="">
+                        </div>
 
-            <label class="labelformulaire" for="comments">Informations complémentaires</label>
-            <textarea id="comments"></textarea>
-
-
-            <p><input type="submit" value="Envoyer"></p>
-        </form>
+                    </div>
+                    <div class="form-group col pl-3">
+                        <label class="labelformulaire">Informations complémentaires</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                    </div>
+                    <div class="send-btn pl-3">
+                        <button type="submit" class="btn btn-light">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
+
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <p>Salut</p>
+
 
 
     <script src="js/jquery.js"></script>

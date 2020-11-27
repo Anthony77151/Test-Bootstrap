@@ -110,23 +110,7 @@ h2 {
 
 /* Formulaire */
 
-p {
-    margin-top: 0px;
-    color: ghostwhite;
-}
-
-legend {
-    padding: 0px 3px;
-    font-weight: bold;
-    font-variant: small-caps;
-    color: ghostwhite;
-}
-
 .labelformulaire {
-    width: 100%;
-    display: inline-block;
-    vertical-align: top;
-    margin: 6px;
     color: ghostwhite;
 }
 
@@ -137,34 +121,11 @@ em {
 }
 
 input:focus {
-    background: #eaeaea;
-}
-
-input,
-textarea {
-    width: 330px;
-}
-
-textarea {
-    height: 100px;
-}
-
-select {
-    width: 254px;
-}
-
-input[type=checkbox] {
-    width: 10px;
-}
-
-input[type=submit] {
-    width: 150px;
-    padding: 10px;
+    background: #008eb6;
 }
 
 .Formulaire {
     padding-top: 85px;
-    margin-left: 18px;
     font-size: 20px;
 }
 
@@ -173,8 +134,25 @@ h3 {
 }
 
 .obligado {
-    font-size: 12px;
+    font-size: 15px;
 }
+
+.containerctc {
+    width: 100%;
+}
+
+.contact {
+    width: 40%;
+}
+
+
+/*/////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////*/
 
 
 /*Media*/
