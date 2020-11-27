@@ -125,7 +125,6 @@ input:focus {
 }
 
 .Formulaire {
-    padding-top: 85px;
     font-size: 20px;
 }
 
@@ -139,10 +138,15 @@ h3 {
 
 .containerctc {
     width: 100%;
+    padding-top: 70px;
 }
 
-.contact {
-    width: 40%;
+legend {
+    color: ghostwhite;
+}
+
+fieldset {
+    background-color: rgb(22, 22, 22, 0.8);
 }
 
 

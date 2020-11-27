@@ -40,13 +40,16 @@
     </header>
     <br><br>
     <div class="containerctc">
-        <div class="contact">
-            <div class="Formulaire">
-                <form class="col">
+
+        <div class="Formulaire">
+            <form class="col col-md-12 col-sm-12 col-lg-6 col-xl-5">
+                <fieldset class="border p-2">
                     <h3 class="pl-3">Nous contacter par e-mail :</h3>
                     <p class="obligado pl-3"><i>Complétez le formulaire. Les champs marqués par </i><em>*</em> sont <em>obligatoires</em></p>
-                    <div class="form-group">
-
+                </fieldset>
+                <div class="form-group">
+                    <fieldset class="border p-2">
+                        <legend class="w-auto">Contact</legend>
                         <div class="col">
                             <label class="labelformulaire" type="nom" for="nom">Nom <em>*</em></label>
                             <input type="text" class="form-control" placeholder="Nom" required="">
@@ -65,18 +68,19 @@
                             <label class="labelformulaire" for="email">Email <em>*</em></label>
                             <input type="email" class="form-control" id="email" placeholder="Nom.prenom@exemple.com" required="">
                         </div>
-
-                    </div>
-                    <div class="form-group col pl-3">
+                    </fieldset>
+                    <fieldset class="border p-2">
+                        <legend class="w-auto">Votre demande</legend>
                         <label class="labelformulaire">Informations complémentaires</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-                    </div>
-                    <div class="send-btn pl-3">
-                        <button type="submit" class="btn btn-light">Envoyer</button>
-                    </div>
-                </form>
-            </div>
+                    </fieldset>
+                </div>
+                <div class="send-btn pl-3">
+                    <button type="submit" class="btn btn-light">Envoyer</button>
+                </div>
+            </form>
         </div>
+
     </div>
 
     <br><br><br><br><br><br><br><br>
