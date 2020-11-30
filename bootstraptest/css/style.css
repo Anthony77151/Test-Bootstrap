@@ -31,7 +31,39 @@ h1 {
 
 h2 {
     color: ghostwhite;
+    border-bottom: 1px solid ghostwhite;
     background-color: #008eb6;
+    padding: 5px 0 5px 10px;
+}
+
+.texteportail {
+    padding-left: 10px;
+}
+
+.bordurecarrou {
+    background-color: rgb(22, 22, 22, 0.8);
+    border: 1px solid ghostwhite;
+    padding: 0;
+    border-right: none;
+}
+
+.bordurecarrou2 {
+    background-color: rgb(22, 22, 22, 0.8);
+    border: 1px solid rgb(255, 251, 248);
+    padding: 0;
+    border-left: none;
+}
+
+.carouselborder {
+    border: 1px solid ghostwhite;
+    padding: 0;
+    border-left: none;
+}
+
+.carouselborder2 {
+    border: 1px solid rgb(251, 255, 248);
+    padding: 0;
+    border-right: none;
 }
 
 .header {
@@ -85,10 +117,11 @@ h2 {
 /* Featurettes
 ------------------------- */
 
-.texteportail {
+
+/*.texteportail {
     background-color: rgb(22, 22, 22, 0.7);
     box-shadow: 0px 5px 10px 5px rgb(22, 22, 22, 0.7);
-}
+}*/
 
 .featurette-divider {
     margin: 1.5rem 0;
@@ -205,6 +238,7 @@ fieldset {
 @media (max-width: 991px) {
     .map-container {
         width: 100%;
+        padding-top: 40px;
     }
     .Formulaire {
         width: 100%;
