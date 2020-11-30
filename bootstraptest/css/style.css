@@ -245,6 +245,21 @@ fieldset {
     }
 }
 
+@media (max-width: 767px) {
+    .bordurecarrou {
+        border-right: 1px solid ghostwhite;
+    }
+    .bordurecarrou2 {
+        border-left: 1px solid ghostwhite;
+    }
+    .carouselborder {
+        border-left: 1px solid ghostwhite;
+    }
+    .carouselborder2 {
+        border-right: 1px solid ghostwhite;
+    }
+}
+
 
 /*ScrollTrigger*/
 
