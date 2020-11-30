@@ -42,7 +42,7 @@
     <div class="containerctc">
 
         <div class="Formulaire">
-            <form class="col col-md-12 col-sm-12 col-lg-5 col-xl-4">
+            <form class="col">
                 <fieldset class="border p-2">
                     <h3 class="pl-3">Nous contacter par e-mail :</h3>
                     <p class="obligado pl-3"><i>Complétez le formulaire. Les champs marqués par </i><em>*</em> sont <em>obligatoires</em></p>
@@ -64,7 +64,7 @@
                             <label class="labelformulaire" for="telephone">Portable <em>*</em></label>
                             <input type="tel" class="form-control" placeholder="06xxxxxxxx" pattern="0[1-9][0-9]{8}" required="">
                         </div>
-                        <div class="col">
+                        <div class="col pb-3">
                             <label class="labelformulaire" for="email">Email <em>*</em></label>
                             <input type="email" class="form-control" id="email" placeholder="Nom.prenom@exemple.com" required="">
                         </div>
@@ -78,8 +78,10 @@
                         <label class="labelformulaire" for="Automatisation"><input id="Automatisation" type="checkbox" name="demande" value="Automatisation"> Automatisation</label>
                         <label class="labelformulaire" for="Devis"><input id="Devis" type="checkbox" name="demande" value="Devis"> Devis</label>
                         <br><br>
-                        <label class="labelformulaire">Informations complémentaires</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                        <div class="pb-2">
+                            <label class="labelformulaire pb-2">Informations complémentaires</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                        </div>
                     </fieldset>
                 </div>
                 <div class="send-btn pl-3">
@@ -87,8 +89,18 @@
                 </div>
             </form>
         </div>
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42136.96554100666!2d3.402078362228311!3d48.69476989503682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e8d49cafdd6f67%3A0x40b82c3688c5380!2sMontceaux-l%C3%A8s-Provins!5e0!3m2!1sfr!2sfr!4v1606727520031!5m2!1sfr!2sfr"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="infomap">
+                <h3>A propos de nous</h3>
+
+            </div>
+        </div>
+
 
     </div>
+
 
     <br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br>
