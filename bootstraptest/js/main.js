@@ -7,7 +7,7 @@ $(document).ready(function() {
 
         $(elmt).each(function() {
 
-            var topImg = $(this).offset().top - 700;
+            var topImg = $(this).offset().top - 600;
 
             if (topImg < scroll) {
 
