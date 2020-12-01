@@ -97,6 +97,11 @@ h2 {
     max-height: none;
 }
 
+.carouselindex {
+    border-bottom: 2px solid ghostwhite;
+    border-top: 2px solid ghostwhite;
+}
+
 
 /*Séparation*/
 
@@ -107,7 +112,7 @@ h2 {
 .Séparation {
     display: flex;
     justify-content: center;
-    margin: 50px 0 50px 0;
+    margin: 65px 0 65px 0;
 }
 
 
